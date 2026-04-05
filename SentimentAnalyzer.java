@@ -20,8 +20,8 @@ public class SentimentAnalyzer {
         String text2 = "I did not enjoy this product at all.";
         String text3 = "The weather is okay today.";
 
-        System.out.println("Text: "" + text1 + "" -> Sentiment: " + analyzer.analyze(text1));
-        System.out.println("Text: "" + text2 + "" -> Sentiment: " + analyzer.analyze(text2));
-        System.out.println("Text: "" + text3 + "" -> Sentiment: " + analyzer.analyze(text3));
+        System.out.println("Text: \"" + text1 + "\" -> Sentiment: " + analyzer.analyze(text1));
+        System.out.println("Text: \"" + text2 + "\" -> Sentiment: " + analyzer.analyze(text2));
+        System.out.println("Text: \"" + text3 + "\" -> Sentiment: " + analyzer.analyze(text3));
     }
 }
