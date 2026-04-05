@@ -6,34 +6,23 @@ A robust sentiment analysis engine for processing large-scale textual data and e
 ## Features
 - Text preprocessing (tokenization, stemming, lemmatization)
 - Machine learning and deep learning models for sentiment classification
-- Support for multiple languages
-- API for easy integration
+- High-throughput and low-latency performance
+- RESTful API for easy integration
 
 ## Getting Started
 
 ### Prerequisites
 - Java 11+
-- Maven
+- Maven 3.6+
 
 ### Installation
 ```bash
-git clone https://github.com/Sible1954/NLP-Sentiment-Analysis-Engine.git
-cd NLP-Sentiment-Analysis-Engine
 mvn clean install
 ```
 
 ### Usage
-```java
-import com.example.sentiment.SentimentAnalyzer;
-
-public class Main {
-    public static void main(String[] args) {
-        SentimentAnalyzer analyzer = new SentimentAnalyzer();
-        String text = "This movie was absolutely fantastic!";
-        String sentiment = analyzer.analyze(text);
-        System.out.println("Sentiment: " + sentiment);
-    }
-}
+```bash
+java -jar target/sentiment-analyzer-1.0.0.jar
 ```
 
 ## Contributing
